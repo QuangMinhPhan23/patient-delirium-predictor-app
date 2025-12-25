@@ -232,7 +232,7 @@ Backend:
 ```bash
 # Use a production server like Gunicorn
 pip install gunicorn
-gunicorn -w 4 -k uvicorn.workers.UvicornWorker test:app
+gunicorn -w 4 -k uvicorn.workers.UvicornWorker api:app
 ```
 
 ## 📄 License

@@ -1,1 +1,1 @@
-web: uvicorn test:app --host 127.0.0.1 --port ${PORT:-8000}
+web: uvicorn api:app --host 127.0.0.1 --port ${PORT:-8000}
