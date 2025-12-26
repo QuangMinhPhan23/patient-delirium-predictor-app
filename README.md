@@ -1,18 +1,20 @@
 # Healthcare Assessment Delay Predictor
 
-A full-stack machine learning web application for predicting patient assessment delays using stacking ensemble classifiers. Built with React frontend and FastAPI backend, featuring automated hyperparameter tuning with Optuna.
+A full-stack machine learning web application for predicting patient assessment delays using stacking ensemble classifiers. Built with React frontend and FastAPI backend, featuring automated hyperparameter tuning with Optuna and deployed via Render. (You can find the link on the right)
 
 ## 🎯 Overview
 
-This application predicts healthcare assessment delays (delassess) for patients using an optimized stacking classifier combining XGBoost and Random Forest with a Logistic Regression meta-learner. The model achieves robust performance through temporal feature engineering and Optuna-based hyperparameter optimization.
+This application predicts post-operative delirium assessment (delassess) for patients using an optimized stacking classifier combining XGBoost and Random Forest with a Logistic Regression meta-learner. The model achieves robust performance through temporal feature engineering and Optuna-based hyperparameter optimization.
 
 ## 📸 Screenshots
 
-<img width="1798" height="782" alt="image" src="https://github.com/user-attachments/assets/a6590435-3bd2-4a19-8c06-6ef398fe8936" />
-<img width="1849" height="811" alt="image" src="https://github.com/user-attachments/assets/ea483c32-2c1b-4d49-9750-c068aa17486d" />
-<img width="1837" height="852" alt="image" src="https://github.com/user-attachments/assets/2bf42096-ff2b-4d92-9a3d-476392b8d176" />
-<img width="1837" height="809" alt="image" src="https://github.com/user-attachments/assets/354fd52b-fce4-4f76-8c11-1f98f46865b3" />
-<img width="1809" height="870" alt="image" src="https://github.com/user-attachments/assets/5c6929f7-ba09-4838-b78f-c36d198dcc49" />
+<img width="1908" height="872" alt="image" src="https://github.com/user-attachments/assets/97a1bf01-2125-4b43-854b-28e42736cd9b" />
+<img width="1891" height="874" alt="image" src="https://github.com/user-attachments/assets/0a9f9cbf-f5b2-46aa-9580-9e7576662fc6" />
+<img width="1872" height="863" alt="image" src="https://github.com/user-attachments/assets/a36ec62b-b76b-4881-9643-15a0569d3173" />
+<img width="1870" height="858" alt="image" src="https://github.com/user-attachments/assets/ddad0208-4f83-4986-a4d8-a54a909a7c14" />
+<img width="1878" height="867" alt="image" src="https://github.com/user-attachments/assets/5a595c37-c9cd-42d8-9bea-fc2ab71dfb20" />
+<img width="1895" height="867" alt="image" src="https://github.com/user-attachments/assets/0dcaeb35-5d00-48e4-b755-94f70dadbcb6" />
+
 
 ## 📊 Model Information
 
